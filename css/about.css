@@ -1,0 +1,64 @@
+h4{
+    margin-bottom: 24px;
+}
+h5{
+    margin-bottom: 16px;
+}
+p+p{
+    margin-top: 16px;
+}
+
+li+li{
+    margin-top: 12px;
+}
+
+.banner {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 151px;
+    color: var( --color-neutral-0);
+    margin-bottom: 64px;
+}
+.banner h1{
+    margin-bottom: 16px;
+}
+.main{
+    padding-bottom: 64px;
+}
+
+.block-quote{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 48px;
+    padding:32px;
+    background-color: var(--color-primary-100);
+    text-align: center;
+}
+.block-quote p+p{
+    margin-top: 4px;
+}
+.intro img{
+    margin-bottom: 24px;
+}
+
+.article .section{
+    padding-bottom: 48px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-bottom: solid 1px var(--color-neutral-300);
+}
+.section+ .section{
+    padding-top: 48px;
+}
+
+.history ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.brand-concept li{
+    padding-left: 10px;
+    border-left: 3px solid var(--color-neutral-300);
+}
