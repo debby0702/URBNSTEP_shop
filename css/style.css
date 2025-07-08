@@ -116,18 +116,29 @@ p {
     opacity: 40%;
 }
 
+.flex{
+    display: flex;
+}
+
+/* 搭配flex，快速推擠 */
+.ml-auto{
+    margin-left: auto;
+}
+.mr-auto{
+    margin-right: auto;
+}
 
 /* layout */
-.container1{
+.container-l{
     max-width: 1296px;
     margin: 0 auto;
 }
 
-.container2{
+.container-m{
     max-width: 1076px;
     margin: 0 auto;
 }
-.container3{
+.container-s{
     max-width: 856px;
     margin: 0 auto;
 }
@@ -137,11 +148,21 @@ p {
     background-color: var(--color-neutral-0);
 }
 .nav a{
-    display: inline-block;
+    display:block;
     padding-top: 12px;
     padding-bottom: 12px;
     color: var(--color-neutral-900);
     text-decoration: none;
+    background-color: rgb(255, 192, 242);
+}
+.logo{
+    background: url(../img/logo.svg) no-repeat;
+}
+/* 隱藏文字 */
+.invisible-text{
+    text-indent: 101%;
+    overflow: hidden;
+    text-wrap: none;
 }
 
 /* footer */
