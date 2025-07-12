@@ -1,14 +1,14 @@
-h4{
+.main h4{
     margin-bottom: 24px;
 }
-h5{
+.main h5{
     margin-bottom: 16px;
 }
-p+p{
+.main p+p{
     margin-top: 16px;
 }
 
-li+li{
+.main li+li{
     margin-top: 12px;
 }
 

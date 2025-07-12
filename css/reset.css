@@ -42,12 +42,13 @@ table {
 	border-spacing: 0;
 }
 
+/* 補充reset */
 *, *::before, *::after{
     box-sizing: border-box;
 }
 
 img{
     max-width: 100%;
-	display: inline-block;
-    align-items: center;
+    height: auto;
+    vertical-align: bottom;
 }
