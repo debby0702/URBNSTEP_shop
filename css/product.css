@@ -28,9 +28,7 @@
     background-color: var(--color-primary-300);
     font-weight: 500;
 }
-.highlight-info{
-    background-color: var(--color-primary-200);
-}
+
 
 /* product-detail */
 .product-detail .col-6{
